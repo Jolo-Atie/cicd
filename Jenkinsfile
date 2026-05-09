@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GIT_REPO_URL = 'https://github.com/ricaconsigo/testlab.git'
+        GIT_REPO_URL = 'https://github.com/KoweinLumapaz/cicd.git'
         GIT_CREDENTIALS_ID = 'github-pat2'
         GIT_BRANCH = 'main'
     }
@@ -30,4 +30,3 @@ pipeline {
         }
     }
 }
-
